@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>User Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Site</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Games"><i class="fa fa-gamepad"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Forum"><i class="fa fa-comments"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope">
+        </i><span class="w3-badge w3-right w3-small w3-white">1</span></button>
+            </i></a>
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell">
+
+            </i><span class="w3-badge w3-right w3-small w3-white">3</span></button>
+
+            <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+                <a href="#" class="w3-bar-item w3-button">Anonymous sent you a message!</a>
+                <a href="#" class="w3-bar-item w3-button">Let us walk you through the site!</a>
+                <a href="#" class="w3-bar-item w3-button">Welcome to "Site"!</a>
+
+            </div>
+
+        </div>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-gear"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Donate"><i class="fa fa-usd"></i></a>
+
+
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Profile">
+            <img src=https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png
+                 https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_200x200_v1.png
+            class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+        </a>
+    </div>
+</div>
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px;"   >
+    <!-- The Grid -->
+    <div class="w3-row"
+    >
+        <!-- Left Column -->
+        <div class="w3-col m3"
+        >
+
+            <!-- Profile -->
+            <div class="w3-card w3-round w3-white"
+                 style="height:700px;width:300px"  >
+                <div class="w3-container">
+
+                    <h4 class="w3-center">My Profile</h4>
+                    <p class="w3-center"><img
+                            src="https://img.ml-static.com/global/img/profile-placeholder-vcard.png
+https://img.ml-static.com/global/img/profile-placeholder-vcard.png
+" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+                    <hr>
+                    <p><i class="fa fa-user fa-fw w3-margin-right w3-text-theme"></i> Username:
+                        <input type="text" style= "height:22px; width:107px; name="Date of Birth" value=""><br></p></p>
+
+                    <p><i class= "fa fa-intersex fa-fw w3-margin-right w3-text-theme
+             style="width:20px"></i> Gender :
+
+                        <select>
+
+                            <option value="Please Choose">Please choose</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                            <option value="Genderfluid">Genderfluid</option>
+                        </select>
+
+                    </p>
+                    <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i>
+                        Date of Birth:
+                        <input type="text" style="width:107px; name="Date of Birth" value="Please input"><br></p>
+
+                    <p><i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i> Country:
+                        <select id="country" name="country">
+                            <option value="Please Choose">Please Choose</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="brazil">Brazil</option>
+                        </select></p>
+                    <p><i class="fa fa-book fa-fw w3-margin-right w3-text-theme" ></i>
+                        <label for="about you">About you:</label>
+                        <textarea id="About you" name="about you" placeholder="Write something.." style="height:250px; width: 243px; " ></textarea>
+                        <button type="submit" value="Submit">Save Changes</button>
+                </div>
+            </div>
+            <br>
