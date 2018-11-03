@@ -4,38 +4,22 @@
     <meta charset="UTF-8">
     <title>HCI | Login </title>
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    <link href = "style.css" type="text/css" ref="stylesheet">
-    <style>
-        body, html {
-            height: 100%;
-            background: url(img/background.jpg);
-            background-size: cover;
-            background-position: center;
-        }
-
-        h2 { 
-            font-family: tahoma, helvetica;
-            font-size: 14px;
-        }
-
-        h3 {
-            font-family: helvetica;
-            font-size: 10px;
-        }
-
-    </style>
-</head>
+    <link href = "style.css" type="text/css" rel="stylesheet">
 <body>
-    <h2> Login </h2>
-    <div class="bg-image center">
+    <div class="loginBox">
+        <img src ="img/avatar.jpg" class="avatar">
+        <h1> Login </h1>
         <form>
             <!-- Username/password fields -->
-            <label> Username: </label>
-            <input id = "nameField" type = "text">
+            <p> Username: </p>
+            <input id = "nameField" type = "text" placeholder="Enter username here">
 
-            <label> Password: </label>
-            <input id = "passField" type = "password">
+            <p> Password: </p>
+            <input id = "passField" type = "password" placeholder="Enter password here">
+            <input id = "submit" type = "submit" value = "Sign in">
+            <a href="register.html"><font size = 2px>Don't already have an account? Register here. </font></a>
         </form>
     </div>
 </body>
+</head>
 </html>
