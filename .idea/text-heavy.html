@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
       html,
       body,
-      h1,
       h2,
       h3,
       h4,
       h5,
       h6 {
         font-family: "Roboto", sans-serif
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h5 {
+        color: blue;
+        cursor: pointer;
+      }
+
+      h5:hover {
+        color: rgb(58, 79, 87);
+      }
+
+      h6 {
+        color: black;
       }
 
       nav {
@@ -53,6 +70,17 @@
         margin-right: 10px;
         margin-top: -20px;
       }
+
+      div {
+        width: 100%;
+        margin-left: 50px;
+      }
+
+      span {
+        color: black;
+        font-family: tahoma;
+        font-size: 18px;
+      }
     </style>
 </head>
 <nav>
@@ -64,86 +92,61 @@
     <a href="#">Sports</a>
 </nav>
 <body class="w3-light-grey">
-
+  
   <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <h1>World News</h1><hr>
 
+  <div>
     <!-- The Grid -->
     <div class="w3-row-padding">
 
 
       <!-- Right Column -->
       <div class="w3-twothird">
-
         <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>World
-            News</h2>
+          
 
           <div class="w3-container w3-card w3-white">
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>09 Nov 2018</h6>
-            <h5 class="w3-opacity"><b>A painting of an animal in an Indonesian cave dates from at least 40,000 years
+            <h5 class="w3-opacity"><span> 2 hours ago</span><b> - A painting of an animal in an Indonesian cave dates from at least 40,000 years
                 ago, making it the world's oldest piece of figurative art. The painting in Borneo, possibly depicting a
                 native type of wild cattle, is among thousands of artworks discovered decades ago in the remote region.</b></h5>
-          
-            <hr>
+
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>One of the oldest known stars in the universe lives in the Milky Way, new study
-                finds. At 13.5 billion years old, the tiny red dwarf, which is just one-seventh the mass of the Sun,
-                has been around since 300 million years after the Big Bang (when the universe was just 2% its current
-                age).</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>08 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> 4 hours ago</span><b> - Astronomers spot one of the oldest stars in the entire universe. And the 13.5-billion-year-old red dwarf just so happens to reside right here in the Milky Way</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>The first eggs made using a new method that doesn't involve the mass killing of
-                male chicks are hitting German supermarkets. Every year in Germany 45 million male chicks are shredded
-                or gassed to death because they don't produce eggs.</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>07 Nov 2018</h6>
-            <br>
-            <hr>
+            <h5 class="w3-opacity"><span> 10 hours ago</span><b> - Every year in Germany 45 million male chicks are shredded or gassed to death because they don't produce eggs. 
+                Now eggs produced using a new method that isn't so brutal are in supermarkets</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>Humanity has wiped out 60% of animal populations since 1970, report finds.</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>06 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> Now</span><b> - Humanity has wiped out 60% of animal populations since 1970, report finds.</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>Duck Boat Captain Indicted In Missouri Lake Accident That Killed 17</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>05 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> 3 hours ago</span><b> - Duck Boat Captain Indicted In Missouri Lake Accident That Killed 17</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>France grounds Ryanair plane with 149 on board over subsidies dispute</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>04 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> 2 days ago</span><b> - France grounds Ryanair plane with 149 on board over subsidies dispute</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>China reverses ban on tiger bones and rhino horns</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>03 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> 2 minutes ago</span><b> - China reverses ban on tiger bones and rhino horns</b></h5>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>Family gives warning about bats after man becomes Utah’s first fatal rabies case
+            <h5 class="w3-opacity"><span> 1 hour ago</span><b> - Family gives warning about bats after man becomes Utah’s first fatal rabies case
                 in over 70 years</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>02 Nov 2018</h6>
-            <hr>
           </div>
 
           <div class="w3-container w3-card w3-white">
-            <h5 class="w3-opacity"><b>Mandarin mania: how a 'hot duck' enraptured New York City</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>01 Nov 2018</h6>
-            <hr>
+            <h5 class="w3-opacity"><span> 22 minutes</span><b> - Mandarin mania: how a 'hot duck' enraptured New York City</b></h5>
           </div>
         </div>
-
         <!-- End Right Column -->
       </div>
       <!-- End Grid -->
