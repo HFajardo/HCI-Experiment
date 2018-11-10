@@ -4,12 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">   
+
     <style>
         h1 {
            text-align: center;
            margin: 8px;
            padding-bottom: 0px;
+           padding-top: 5px;
         }
 
         div {
@@ -31,7 +33,7 @@
             transition-property: transform;
         }
 
-        .hover-grow:hover, .hover-grow:focus, .hover-grow:active {
+        .hover-grow:hover {
             -webkit-transform: scale(1.1);
             transform: scale(1.1);
         }
@@ -49,11 +51,52 @@
         th {
             text-align: center;
         }
-        
+
+        nav {
+            width: 100%;
+            height: 38px;
+            background-color: darkgray;
+            overflow: hidden;
+        }
+            nav a {
+                display: block;
+                float: left;
+                font-family: sans-serif;
+                font-size: 11px;
+                color: white;
+                padding-top: 20px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                background-color: slategrey;
+            }
+            #logo {
+                font-family: 'Hind', sans-serif;
+                font-size: 30px;
+                letter-spacing: -2px;
+                text-shadow: 1px 1px 2px #c4c4c4;
+                padding-left: 20px;
+                padding-right: 15px;
+                margin-right: 10px;
+                margin-top: -20px;
+            }
     </style>
 </head>
   <body>
-    <h1>News</h1><hr>
+    <nav>
+        <a id="logo" href="#">HCI News</a>
+        <a href="#">World</a>
+        <a href="#">Politics</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Travel</a>
+        <a href="#">Sports</a>
+
+
+    </nav>
+    <h1>World News</h1><hr>
     
     <table>
         <thead>
