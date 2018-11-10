@@ -18,26 +18,67 @@
             padding-bottom: 13%;
             margin-left: 4%;
         }
-        span {
+        .branding-bar {
+            padding: 12px;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            border: none;
         }
     </style>
 </head>
   <body>
-    <h1>News</h1>
+    <h1>News</h1><hr>
     
-    <div data-role="tile" data-size="wide" data-cover="img/animals.jpg">
-        <span class="branding-bar">Humanity has wiped out 60% of animal populations since 1970, report finds</span>
-    </div> 
+    <table>
+        <thead>
+            <tr>
+                <th><div data-role="tile" data-size="wide" data-cover="img/animals.jpg">
+                    <span class="branding-bar">Humanity has wiped out 60% of animal populations since 1970, report finds</span>
+                </div></th>
 
-    <div data-role="tile" data-size="wide" data-cover="img/cave-painting.jpg">
-        <span class="branding-bar">Cave paintings from 40,000 years ago are world's earliest figurative art</span>
-    </div>
-    
-    <div data-role="tile" data-size="wide"data-cover="img/chick.jpg">
-        <span class="branding-bar">Every year in Germany 45 million male chicks are shredded or gassed to death because they don't produce eggs. 
-            Now eggs produced using a new method that isn't so brutal are in supermarkets</span>
-    </div>
+                <th><div data-role="tile" data-size="wide" data-cover="img/cave-painting.jpg">
+                    <span class="branding-bar">Cave paintings from 40,000 years ago are world's earliest figurative art</span>
+                </div></th>
+                
+                <th><div data-role="tile" data-size="wide"data-cover="img/chick.jpg">
+                    <span class="branding-bar">Every year in Germany 45 million male chicks are shredded or gassed to death because they don't produce eggs. 
+                        Now eggs produced using a new method that isn't so brutal are in supermarkets</span>
+                </div></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td><div data-role="tile" data-size="wide"data-cover="img/china-tiger.jpg">
+                    <span class="branding-bar">China reverses ban on tiger bones and rhino horns</span>
+                </div></td>
 
+                <td><div data-role="tile" data-size="wide" data-cover="img/duck.jpg">
+                    <span class="branding-bar">Duck Boat Captain Indicted In Missouri Lake Accident That Killed 17</span></div>
+                </td>
+
+                <td><div data-role="tile" data-size="wide" data-cover="img/plane.jpg">
+                    <span class="branding-bar">France grounds Ryanair plane with 149 on board over long-running subsidies dispute</span></div></div></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th><div data-role="tile" data-size="wide" data-cover="img/red-dwarf.jpg">
+                    <span class="branding-bar">Astronomers spot one of the oldest stars in the entire universe. And the 13.5-billion-year-old red dwarf just so happens to reside right here in the Milky Way</span></div>
+                </th>
+                
+                <th><div data-role="tile" data-size="wide" data-cover="img/utah.jpeg">
+                    <span class="branding-bar">Family gives warning about bats after man becomes Utah’s first fatal rabies case in over 70 years</span></div>
+                </th>
+
+                <th><div data-role="tile" data-size="wide" data-cover="img/hot-duck.jpg">
+                    <span class="branding-bar">Mandarin mania: how a 'hot duck' enraptured New York City</span></div>
+                </th>
+            </tr>
+        </tbody>
+    </table><hr>
 
     <!-- jQuery first, then Metro UI JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
