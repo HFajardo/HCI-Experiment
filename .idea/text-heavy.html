@@ -146,6 +146,38 @@
           <div class="w3-container w3-card w3-white">
             <h5 class="w3-opacity"><span> 22 minutes</span><b> - Mandarin mania: how a 'hot duck' enraptured New York City</b></h5>
           </div>
+        
+
+          
+          <!--Start of Countdown --> 
+          <h3>
+            Redirecting to Survey in <span id="countdown">10</span> seconds
+          </h3>
+          <!-- JavaScript part -->
+          <script type="text/javascript">
+              
+              // Total seconds to wait
+              var seconds = 10;
+              
+              function countdown() {
+                  seconds = seconds - 1;
+                  if (seconds < 0) {
+                      // Chnage your redirection link here
+                      window.location = "https://www.w3schools.com";
+                  } else {
+                      // Update remaining seconds
+                      document.getElementById("countdown").innerHTML = seconds;
+                      // Count down using javascript
+                      window.setTimeout("countdown()", 1000);
+                  }
+              }
+              
+              // Run countdown function
+              countdown(); 
+          </script>
+          <!--End of Countdown-->\
+
+
         </div>
         <!-- End Right Column -->
       </div>
