@@ -147,6 +147,40 @@
         </tbody>
     </table><hr>
 
+
+            
+
+          
+          <!--Start of Countdown --> 
+          <h3>
+            Redirecting to Survey in <span id="countdown">10</span> seconds
+          </h3>
+          <!-- JavaScript part -->
+          <script type="text/javascript">
+              
+              // Total seconds to wait
+              var seconds = 10;
+              
+              function countdown() {
+                  seconds = seconds - 1;
+                  if (seconds < 0) {
+                      // Chnage your redirection link here
+                      window.location = "survey.html";
+                  } else {
+                      // Update remaining seconds
+                      document.getElementById("countdown").innerHTML = seconds;
+                      // Count down using javascript
+                      window.setTimeout("countdown()", 1000);
+                  }
+              }
+              
+              // Run countdown function
+              countdown(); 
+          </script>
+          <!--End of Countdown-->\
+
+
+
     <!-- jQuery first, then Metro UI JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
